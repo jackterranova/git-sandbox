@@ -46,3 +46,6 @@ git add myfile.txt
 git commit -m "commit for second-branch merge"
 echo "Now you should see 2 commits: 1 for the commit to second-branch and 1 for the actual merge to master"
 git log
+
+echo "Opening built-in git visualizer"
+gitk
